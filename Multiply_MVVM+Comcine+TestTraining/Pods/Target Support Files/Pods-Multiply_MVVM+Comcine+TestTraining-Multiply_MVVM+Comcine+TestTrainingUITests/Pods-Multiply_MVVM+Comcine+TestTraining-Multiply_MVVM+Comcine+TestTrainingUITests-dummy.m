@@ -1,5 +1,0 @@
-#import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_Multiply_MVVM_Comcine_TestTraining_Multiply_MVVM_Comcine_TestTrainingUITests : NSObject
-@end
-@implementation PodsDummy_Pods_Multiply_MVVM_Comcine_TestTraining_Multiply_MVVM_Comcine_TestTrainingUITests
-@end

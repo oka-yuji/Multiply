@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28B5ACEE2663C5F800627FFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B5ACED2663C5F800627FFD /* AppDelegate.swift */; };
+		28B5ACF02663C5F800627FFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B5ACEF2663C5F800627FFD /* SceneDelegate.swift */; };
+		28B5ACF22663C5F800627FFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B5ACF12663C5F800627FFD /* ContentView.swift */; };
+		28B5ACF42663C5F900627FFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B5ACF32663C5F900627FFD /* Assets.xcassets */; };
+		28B5ACF72663C5F900627FFD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B5ACF62663C5F900627FFD /* Preview Assets.xcassets */; };
+		28B5ACFA2663C5F900627FFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B5ACF82663C5F900627FFD /* LaunchScreen.storyboard */; };
+		28B5AD052663C5F900627FFD /* Multiply_MVVM_Combine_TestTrainingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B5AD042663C5F900627FFD /* Multiply_MVVM_Combine_TestTrainingTests.swift */; };
+		28B5AD102663C5F900627FFD /* Multiply_MVVM_Combine_TestTrainingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B5AD0F2663C5F900627FFD /* Multiply_MVVM_Combine_TestTrainingUITests.swift */; };
+		28B5AD252663CA2A00627FFD /* CalculateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B5AD1E2663CA2A00627FFD /* CalculateModel.swift */; };
+		28B5AD262663CA2A00627FFD /* TimeLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B5AD202663CA2A00627FFD /* TimeLabelView.swift */; };
+		28B5AD272663CA2A00627FFD /* CalculateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B5AD212663CA2A00627FFD /* CalculateView.swift */; };
+		28B5AD282663CA2A00627FFD /* CustomModifire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B5AD222663CA2A00627FFD /* CustomModifire.swift */; };
+		28B5AD292663CA2A00627FFD /* CalculateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B5AD242663CA2A00627FFD /* CalculateViewModel.swift */; };
+		28B5AD2D2663CB3000627FFD /* MultiplyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B5AD2C2663CB3000627FFD /* MultiplyTest.swift */; };
+		3E6011B53E7D6CBB75D2CA2D /* Pods_Multiply_MVVM_Combine_TestTrainingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C57EBEDB2125CAC9F760BB /* Pods_Multiply_MVVM_Combine_TestTrainingTests.framework */; };
+		72D4209EABA447931F0CCBA4 /* Pods_Multiply_MVVM_Combine_TestTraining_Multiply_MVVM_Combine_TestTrainingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C526DFCE69DA89039F1D302 /* Pods_Multiply_MVVM_Combine_TestTraining_Multiply_MVVM_Combine_TestTrainingUITests.framework */; };
+		74EB7B966E694BF94B480815 /* Pods_Multiply_MVVM_Combine_TestTraining.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B5F968B28C52B4B00E4D571 /* Pods_Multiply_MVVM_Combine_TestTraining.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28B5AD012663C5F900627FFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28B5ACE22663C5F800627FFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28B5ACE92663C5F800627FFD;
+			remoteInfo = "Multiply_MVVM+Combine+TestTraining";
+		};
+		28B5AD0C2663C5F900627FFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28B5ACE22663C5F800627FFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28B5ACE92663C5F800627FFD;
+			remoteInfo = "Multiply_MVVM+Combine+TestTraining";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		004871FDCD35AC6AC9E94232 /* Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests.release.xcconfig"; path = "Target Support Files/Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests/Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		04CD6D7017F188E68DD9DEBD /* Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests.debug.xcconfig"; path = "Target Support Files/Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests/Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0BAB456F5C16C7DC99E184FF /* Pods-Multiply_MVVM+Combine+TestTraining.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multiply_MVVM+Combine+TestTraining.debug.xcconfig"; path = "Target Support Files/Pods-Multiply_MVVM+Combine+TestTraining/Pods-Multiply_MVVM+Combine+TestTraining.debug.xcconfig"; sourceTree = "<group>"; };
+		28B5ACEA2663C5F800627FFD /* Multiply_MVVM+Combine+TestTraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multiply_MVVM+Combine+TestTraining.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28B5ACED2663C5F800627FFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28B5ACEF2663C5F800627FFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		28B5ACF12663C5F800627FFD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		28B5ACF32663C5F900627FFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28B5ACF62663C5F900627FFD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		28B5ACF92663C5F900627FFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28B5ACFB2663C5F900627FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28B5AD002663C5F900627FFD /* Multiply_MVVM+Combine+TestTrainingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multiply_MVVM+Combine+TestTrainingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28B5AD042663C5F900627FFD /* Multiply_MVVM_Combine_TestTrainingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiply_MVVM_Combine_TestTrainingTests.swift; sourceTree = "<group>"; };
+		28B5AD062663C5F900627FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28B5AD0B2663C5F900627FFD /* Multiply_MVVM+Combine+TestTrainingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multiply_MVVM+Combine+TestTrainingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28B5AD0F2663C5F900627FFD /* Multiply_MVVM_Combine_TestTrainingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiply_MVVM_Combine_TestTrainingUITests.swift; sourceTree = "<group>"; };
+		28B5AD112663C5F900627FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28B5AD1E2663CA2A00627FFD /* CalculateModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateModel.swift; sourceTree = "<group>"; };
+		28B5AD202663CA2A00627FFD /* TimeLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLabelView.swift; sourceTree = "<group>"; };
+		28B5AD212663CA2A00627FFD /* CalculateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateView.swift; sourceTree = "<group>"; };
+		28B5AD222663CA2A00627FFD /* CustomModifire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomModifire.swift; sourceTree = "<group>"; };
+		28B5AD242663CA2A00627FFD /* CalculateViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateViewModel.swift; sourceTree = "<group>"; };
+		28B5AD2C2663CB3000627FFD /* MultiplyTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyTest.swift; sourceTree = "<group>"; };
+		62C57EBEDB2125CAC9F760BB /* Pods_Multiply_MVVM_Combine_TestTrainingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Multiply_MVVM_Combine_TestTrainingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B5F968B28C52B4B00E4D571 /* Pods_Multiply_MVVM_Combine_TestTraining.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Multiply_MVVM_Combine_TestTraining.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7470679E1D57ADE40A965F1C /* Pods-Multiply_MVVM+Combine+TestTraining.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multiply_MVVM+Combine+TestTraining.release.xcconfig"; path = "Target Support Files/Pods-Multiply_MVVM+Combine+TestTraining/Pods-Multiply_MVVM+Combine+TestTraining.release.xcconfig"; sourceTree = "<group>"; };
+		9C526DFCE69DA89039F1D302 /* Pods_Multiply_MVVM_Combine_TestTraining_Multiply_MVVM_Combine_TestTrainingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Multiply_MVVM_Combine_TestTraining_Multiply_MVVM_Combine_TestTrainingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F4C71D6F5A7B15C5085317 /* Pods-Multiply_MVVM+Combine+TestTrainingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multiply_MVVM+Combine+TestTrainingTests.debug.xcconfig"; path = "Target Support Files/Pods-Multiply_MVVM+Combine+TestTrainingTests/Pods-Multiply_MVVM+Combine+TestTrainingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EDFD6AB1073A4DBF5300D048 /* Pods-Multiply_MVVM+Combine+TestTrainingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multiply_MVVM+Combine+TestTrainingTests.release.xcconfig"; path = "Target Support Files/Pods-Multiply_MVVM+Combine+TestTrainingTests/Pods-Multiply_MVVM+Combine+TestTrainingTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28B5ACE72663C5F800627FFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74EB7B966E694BF94B480815 /* Pods_Multiply_MVVM_Combine_TestTraining.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28B5ACFD2663C5F900627FFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E6011B53E7D6CBB75D2CA2D /* Pods_Multiply_MVVM_Combine_TestTrainingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28B5AD082663C5F900627FFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D4209EABA447931F0CCBA4 /* Pods_Multiply_MVVM_Combine_TestTraining_Multiply_MVVM_Combine_TestTrainingUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FE14329065BE4BADCA7B3A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BAB456F5C16C7DC99E184FF /* Pods-Multiply_MVVM+Combine+TestTraining.debug.xcconfig */,
+				7470679E1D57ADE40A965F1C /* Pods-Multiply_MVVM+Combine+TestTraining.release.xcconfig */,
+				04CD6D7017F188E68DD9DEBD /* Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests.debug.xcconfig */,
+				004871FDCD35AC6AC9E94232 /* Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests.release.xcconfig */,
+				A8F4C71D6F5A7B15C5085317 /* Pods-Multiply_MVVM+Combine+TestTrainingTests.debug.xcconfig */,
+				EDFD6AB1073A4DBF5300D048 /* Pods-Multiply_MVVM+Combine+TestTrainingTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		28B5ACE12663C5F800627FFD = {
+			isa = PBXGroup;
+			children = (
+				28B5ACEC2663C5F800627FFD /* Multiply_MVVM+Combine+TestTraining */,
+				28B5AD032663C5F900627FFD /* Multiply_MVVM+Combine+TestTrainingTests */,
+				28B5AD0E2663C5F900627FFD /* Multiply_MVVM+Combine+TestTrainingUITests */,
+				28B5ACEB2663C5F800627FFD /* Products */,
+				1FE14329065BE4BADCA7B3A0 /* Pods */,
+				6EB9A7E1D1D5732514AC571B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		28B5ACEB2663C5F800627FFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28B5ACEA2663C5F800627FFD /* Multiply_MVVM+Combine+TestTraining.app */,
+				28B5AD002663C5F900627FFD /* Multiply_MVVM+Combine+TestTrainingTests.xctest */,
+				28B5AD0B2663C5F900627FFD /* Multiply_MVVM+Combine+TestTrainingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28B5ACEC2663C5F800627FFD /* Multiply_MVVM+Combine+TestTraining */ = {
+			isa = PBXGroup;
+			children = (
+				28B5ACED2663C5F800627FFD /* AppDelegate.swift */,
+				28B5ACEF2663C5F800627FFD /* SceneDelegate.swift */,
+				28B5ACF12663C5F800627FFD /* ContentView.swift */,
+				28B5AD1F2663CA2A00627FFD /* View */,
+				28B5AD232663CA2A00627FFD /* ViewModel */,
+				28B5AD1D2663CA2A00627FFD /* Model */,
+				28B5ACF32663C5F900627FFD /* Assets.xcassets */,
+				28B5ACF82663C5F900627FFD /* LaunchScreen.storyboard */,
+				28B5ACFB2663C5F900627FFD /* Info.plist */,
+				28B5ACF52663C5F900627FFD /* Preview Content */,
+			);
+			path = "Multiply_MVVM+Combine+TestTraining";
+			sourceTree = "<group>";
+		};
+		28B5ACF52663C5F900627FFD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				28B5ACF62663C5F900627FFD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		28B5AD032663C5F900627FFD /* Multiply_MVVM+Combine+TestTrainingTests */ = {
+			isa = PBXGroup;
+			children = (
+				28B5AD042663C5F900627FFD /* Multiply_MVVM_Combine_TestTrainingTests.swift */,
+				28B5AD2C2663CB3000627FFD /* MultiplyTest.swift */,
+				28B5AD062663C5F900627FFD /* Info.plist */,
+			);
+			path = "Multiply_MVVM+Combine+TestTrainingTests";
+			sourceTree = "<group>";
+		};
+		28B5AD0E2663C5F900627FFD /* Multiply_MVVM+Combine+TestTrainingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28B5AD0F2663C5F900627FFD /* Multiply_MVVM_Combine_TestTrainingUITests.swift */,
+				28B5AD112663C5F900627FFD /* Info.plist */,
+			);
+			path = "Multiply_MVVM+Combine+TestTrainingUITests";
+			sourceTree = "<group>";
+		};
+		28B5AD1D2663CA2A00627FFD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				28B5AD1E2663CA2A00627FFD /* CalculateModel.swift */,
+			);
+			name = Model;
+			path = "../../Multiply/Multiply_MVVM+Comcine+TestTraining/Multiply_MVVM+Comcine+TestTraining/Model";
+			sourceTree = "<group>";
+		};
+		28B5AD1F2663CA2A00627FFD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				28B5AD202663CA2A00627FFD /* TimeLabelView.swift */,
+				28B5AD212663CA2A00627FFD /* CalculateView.swift */,
+				28B5AD222663CA2A00627FFD /* CustomModifire.swift */,
+			);
+			name = View;
+			path = "../../Multiply/Multiply_MVVM+Comcine+TestTraining/Multiply_MVVM+Comcine+TestTraining/View";
+			sourceTree = "<group>";
+		};
+		28B5AD232663CA2A00627FFD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				28B5AD242663CA2A00627FFD /* CalculateViewModel.swift */,
+			);
+			name = ViewModel;
+			path = "../../Multiply/Multiply_MVVM+Comcine+TestTraining/Multiply_MVVM+Comcine+TestTraining/ViewModel";
+			sourceTree = "<group>";
+		};
+		6EB9A7E1D1D5732514AC571B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B5F968B28C52B4B00E4D571 /* Pods_Multiply_MVVM_Combine_TestTraining.framework */,
+				9C526DFCE69DA89039F1D302 /* Pods_Multiply_MVVM_Combine_TestTraining_Multiply_MVVM_Combine_TestTrainingUITests.framework */,
+				62C57EBEDB2125CAC9F760BB /* Pods_Multiply_MVVM_Combine_TestTrainingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28B5ACE92663C5F800627FFD /* Multiply_MVVM+Combine+TestTraining */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28B5AD142663C5F900627FFD /* Build configuration list for PBXNativeTarget "Multiply_MVVM+Combine+TestTraining" */;
+			buildPhases = (
+				28B5AD2E2663CB8800627FFD /* ShellScript */,
+				1398E29CA4837F3837B6DDF6 /* [CP] Check Pods Manifest.lock */,
+				28B5ACE62663C5F800627FFD /* Sources */,
+				28B5ACE72663C5F800627FFD /* Frameworks */,
+				28B5ACE82663C5F800627FFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Multiply_MVVM+Combine+TestTraining";
+			productName = "Multiply_MVVM+Combine+TestTraining";
+			productReference = 28B5ACEA2663C5F800627FFD /* Multiply_MVVM+Combine+TestTraining.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28B5ACFF2663C5F900627FFD /* Multiply_MVVM+Combine+TestTrainingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28B5AD172663C5F900627FFD /* Build configuration list for PBXNativeTarget "Multiply_MVVM+Combine+TestTrainingTests" */;
+			buildPhases = (
+				AC3B4DE0B832DC3A2BDE47F9 /* [CP] Check Pods Manifest.lock */,
+				28B5ACFC2663C5F900627FFD /* Sources */,
+				28B5ACFD2663C5F900627FFD /* Frameworks */,
+				28B5ACFE2663C5F900627FFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28B5AD022663C5F900627FFD /* PBXTargetDependency */,
+			);
+			name = "Multiply_MVVM+Combine+TestTrainingTests";
+			productName = "Multiply_MVVM+Combine+TestTrainingTests";
+			productReference = 28B5AD002663C5F900627FFD /* Multiply_MVVM+Combine+TestTrainingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28B5AD0A2663C5F900627FFD /* Multiply_MVVM+Combine+TestTrainingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28B5AD1A2663C5F900627FFD /* Build configuration list for PBXNativeTarget "Multiply_MVVM+Combine+TestTrainingUITests" */;
+			buildPhases = (
+				D8C3B02627FCC1495785E6AB /* [CP] Check Pods Manifest.lock */,
+				28B5AD072663C5F900627FFD /* Sources */,
+				28B5AD082663C5F900627FFD /* Frameworks */,
+				28B5AD092663C5F900627FFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28B5AD0D2663C5F900627FFD /* PBXTargetDependency */,
+			);
+			name = "Multiply_MVVM+Combine+TestTrainingUITests";
+			productName = "Multiply_MVVM+Combine+TestTrainingUITests";
+			productReference = 28B5AD0B2663C5F900627FFD /* Multiply_MVVM+Combine+TestTrainingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28B5ACE22663C5F800627FFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					28B5ACE92663C5F800627FFD = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					28B5ACFF2663C5F900627FFD = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 28B5ACE92663C5F800627FFD;
+					};
+					28B5AD0A2663C5F900627FFD = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 28B5ACE92663C5F800627FFD;
+					};
+				};
+			};
+			buildConfigurationList = 28B5ACE52663C5F800627FFD /* Build configuration list for PBXProject "Multiply_MVVM+Combine+TestTraining" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28B5ACE12663C5F800627FFD;
+			productRefGroup = 28B5ACEB2663C5F800627FFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28B5ACE92663C5F800627FFD /* Multiply_MVVM+Combine+TestTraining */,
+				28B5ACFF2663C5F900627FFD /* Multiply_MVVM+Combine+TestTrainingTests */,
+				28B5AD0A2663C5F900627FFD /* Multiply_MVVM+Combine+TestTrainingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28B5ACE82663C5F800627FFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28B5ACFA2663C5F900627FFD /* LaunchScreen.storyboard in Resources */,
+				28B5ACF72663C5F900627FFD /* Preview Assets.xcassets in Resources */,
+				28B5ACF42663C5F900627FFD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28B5ACFE2663C5F900627FFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28B5AD092663C5F900627FFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1398E29CA4837F3837B6DDF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Multiply_MVVM+Combine+TestTraining-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28B5AD2E2663CB8800627FFD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		AC3B4DE0B832DC3A2BDE47F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Multiply_MVVM+Combine+TestTrainingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8C3B02627FCC1495785E6AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28B5ACE62663C5F800627FFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28B5ACEE2663C5F800627FFD /* AppDelegate.swift in Sources */,
+				28B5AD282663CA2A00627FFD /* CustomModifire.swift in Sources */,
+				28B5AD272663CA2A00627FFD /* CalculateView.swift in Sources */,
+				28B5AD262663CA2A00627FFD /* TimeLabelView.swift in Sources */,
+				28B5ACF02663C5F800627FFD /* SceneDelegate.swift in Sources */,
+				28B5AD292663CA2A00627FFD /* CalculateViewModel.swift in Sources */,
+				28B5AD252663CA2A00627FFD /* CalculateModel.swift in Sources */,
+				28B5ACF22663C5F800627FFD /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28B5ACFC2663C5F900627FFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28B5AD052663C5F900627FFD /* Multiply_MVVM_Combine_TestTrainingTests.swift in Sources */,
+				28B5AD2D2663CB3000627FFD /* MultiplyTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28B5AD072663C5F900627FFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28B5AD102663C5F900627FFD /* Multiply_MVVM_Combine_TestTrainingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28B5AD022663C5F900627FFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28B5ACE92663C5F800627FFD /* Multiply_MVVM+Combine+TestTraining */;
+			targetProxy = 28B5AD012663C5F900627FFD /* PBXContainerItemProxy */;
+		};
+		28B5AD0D2663C5F900627FFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28B5ACE92663C5F800627FFD /* Multiply_MVVM+Combine+TestTraining */;
+			targetProxy = 28B5AD0C2663C5F900627FFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28B5ACF82663C5F900627FFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28B5ACF92663C5F900627FFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28B5AD122663C5F900627FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28B5AD132663C5F900627FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28B5AD152663C5F900627FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BAB456F5C16C7DC99E184FF /* Pods-Multiply_MVVM+Combine+TestTraining.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Multiply_MVVM+Combine+TestTraining/Preview Content\"";
+				DEVELOPMENT_TEAM = NKLMM8NS64;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Multiply_MVVM+Combine+TestTraining/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail.yu.j.0513.Multiply-MVVM-Combine-TestTraining";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28B5AD162663C5F900627FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7470679E1D57ADE40A965F1C /* Pods-Multiply_MVVM+Combine+TestTraining.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Multiply_MVVM+Combine+TestTraining/Preview Content\"";
+				DEVELOPMENT_TEAM = NKLMM8NS64;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Multiply_MVVM+Combine+TestTraining/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail.yu.j.0513.Multiply-MVVM-Combine-TestTraining";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		28B5AD182663C5F900627FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8F4C71D6F5A7B15C5085317 /* Pods-Multiply_MVVM+Combine+TestTrainingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NKLMM8NS64;
+				INFOPLIST_FILE = "Multiply_MVVM+Combine+TestTrainingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail.yu.j.0513.Multiply-MVVM-Combine-TestTrainingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multiply_MVVM+Combine+TestTraining.app/Multiply_MVVM+Combine+TestTraining";
+			};
+			name = Debug;
+		};
+		28B5AD192663C5F900627FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDFD6AB1073A4DBF5300D048 /* Pods-Multiply_MVVM+Combine+TestTrainingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NKLMM8NS64;
+				INFOPLIST_FILE = "Multiply_MVVM+Combine+TestTrainingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail.yu.j.0513.Multiply-MVVM-Combine-TestTrainingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multiply_MVVM+Combine+TestTraining.app/Multiply_MVVM+Combine+TestTraining";
+			};
+			name = Release;
+		};
+		28B5AD1B2663C5F900627FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04CD6D7017F188E68DD9DEBD /* Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NKLMM8NS64;
+				INFOPLIST_FILE = "Multiply_MVVM+Combine+TestTrainingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail.yu.j.0513.Multiply-MVVM-Combine-TestTrainingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Multiply_MVVM+Combine+TestTraining";
+			};
+			name = Debug;
+		};
+		28B5AD1C2663C5F900627FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 004871FDCD35AC6AC9E94232 /* Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NKLMM8NS64;
+				INFOPLIST_FILE = "Multiply_MVVM+Combine+TestTrainingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail.yu.j.0513.Multiply-MVVM-Combine-TestTrainingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Multiply_MVVM+Combine+TestTraining";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28B5ACE52663C5F800627FFD /* Build configuration list for PBXProject "Multiply_MVVM+Combine+TestTraining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28B5AD122663C5F900627FFD /* Debug */,
+				28B5AD132663C5F900627FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28B5AD142663C5F900627FFD /* Build configuration list for PBXNativeTarget "Multiply_MVVM+Combine+TestTraining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28B5AD152663C5F900627FFD /* Debug */,
+				28B5AD162663C5F900627FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28B5AD172663C5F900627FFD /* Build configuration list for PBXNativeTarget "Multiply_MVVM+Combine+TestTrainingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28B5AD182663C5F900627FFD /* Debug */,
+				28B5AD192663C5F900627FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28B5AD1A2663C5F900627FFD /* Build configuration list for PBXNativeTarget "Multiply_MVVM+Combine+TestTrainingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28B5AD1B2663C5F900627FFD /* Debug */,
+				28B5AD1C2663C5F900627FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28B5ACE22663C5F800627FFD /* Project object */;
+}

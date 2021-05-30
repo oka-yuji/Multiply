@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Multiply_MVVM+Combine+TestTraining' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'SwiftLint'
+  # Pods for Multiply_MVVM+Combine+TestTraining
+
+  target 'Multiply_MVVM+Combine+TestTrainingTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Multiply_MVVM+Combine+TestTrainingUITests' do
+    # Pods for testing
+  end
+
+end
