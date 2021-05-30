@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28B406352663D23A008DA965 /* CalculateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B406322663D23A008DA965 /* CalculateView.swift */; };
+		28B406372663D23A008DA965 /* CustomModifire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B406342663D23A008DA965 /* CustomModifire.swift */; };
+		28B406392663D24F008DA965 /* CalculateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B406382663D24F008DA965 /* CalculateViewModel.swift */; };
+		28B4063B2663D263008DA965 /* CalculateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B4063A2663D263008DA965 /* CalculateModel.swift */; };
+		28B4063D2663D2DE008DA965 /* MultiplyMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B4063C2663D2DE008DA965 /* MultiplyMock.swift */; };
 		28B5ACEE2663C5F800627FFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B5ACED2663C5F800627FFD /* AppDelegate.swift */; };
 		28B5ACF02663C5F800627FFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B5ACEF2663C5F800627FFD /* SceneDelegate.swift */; };
 		28B5ACF22663C5F800627FFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B5ACF12663C5F800627FFD /* ContentView.swift */; };
@@ -15,11 +20,6 @@
 		28B5ACFA2663C5F900627FFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B5ACF82663C5F900627FFD /* LaunchScreen.storyboard */; };
 		28B5AD052663C5F900627FFD /* Multiply_MVVM_Combine_TestTrainingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B5AD042663C5F900627FFD /* Multiply_MVVM_Combine_TestTrainingTests.swift */; };
 		28B5AD102663C5F900627FFD /* Multiply_MVVM_Combine_TestTrainingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B5AD0F2663C5F900627FFD /* Multiply_MVVM_Combine_TestTrainingUITests.swift */; };
-		28B5AD252663CA2A00627FFD /* CalculateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B5AD1E2663CA2A00627FFD /* CalculateModel.swift */; };
-		28B5AD262663CA2A00627FFD /* TimeLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B5AD202663CA2A00627FFD /* TimeLabelView.swift */; };
-		28B5AD272663CA2A00627FFD /* CalculateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B5AD212663CA2A00627FFD /* CalculateView.swift */; };
-		28B5AD282663CA2A00627FFD /* CustomModifire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B5AD222663CA2A00627FFD /* CustomModifire.swift */; };
-		28B5AD292663CA2A00627FFD /* CalculateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B5AD242663CA2A00627FFD /* CalculateViewModel.swift */; };
 		28B5AD2D2663CB3000627FFD /* MultiplyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B5AD2C2663CB3000627FFD /* MultiplyTest.swift */; };
 		3E6011B53E7D6CBB75D2CA2D /* Pods_Multiply_MVVM_Combine_TestTrainingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C57EBEDB2125CAC9F760BB /* Pods_Multiply_MVVM_Combine_TestTrainingTests.framework */; };
 		72D4209EABA447931F0CCBA4 /* Pods_Multiply_MVVM_Combine_TestTraining_Multiply_MVVM_Combine_TestTrainingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C526DFCE69DA89039F1D302 /* Pods_Multiply_MVVM_Combine_TestTraining_Multiply_MVVM_Combine_TestTrainingUITests.framework */; };
@@ -47,6 +47,11 @@
 		004871FDCD35AC6AC9E94232 /* Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests.release.xcconfig"; path = "Target Support Files/Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests/Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests.release.xcconfig"; sourceTree = "<group>"; };
 		04CD6D7017F188E68DD9DEBD /* Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests.debug.xcconfig"; path = "Target Support Files/Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests/Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		0BAB456F5C16C7DC99E184FF /* Pods-Multiply_MVVM+Combine+TestTraining.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multiply_MVVM+Combine+TestTraining.debug.xcconfig"; path = "Target Support Files/Pods-Multiply_MVVM+Combine+TestTraining/Pods-Multiply_MVVM+Combine+TestTraining.debug.xcconfig"; sourceTree = "<group>"; };
+		28B406322663D23A008DA965 /* CalculateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateView.swift; sourceTree = "<group>"; };
+		28B406342663D23A008DA965 /* CustomModifire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomModifire.swift; sourceTree = "<group>"; };
+		28B406382663D24F008DA965 /* CalculateViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateViewModel.swift; sourceTree = "<group>"; };
+		28B4063A2663D263008DA965 /* CalculateModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateModel.swift; sourceTree = "<group>"; };
+		28B4063C2663D2DE008DA965 /* MultiplyMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplyMock.swift; sourceTree = "<group>"; };
 		28B5ACEA2663C5F800627FFD /* Multiply_MVVM+Combine+TestTraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multiply_MVVM+Combine+TestTraining.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B5ACED2663C5F800627FFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28B5ACEF2663C5F800627FFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,11 +66,6 @@
 		28B5AD0B2663C5F900627FFD /* Multiply_MVVM+Combine+TestTrainingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multiply_MVVM+Combine+TestTrainingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B5AD0F2663C5F900627FFD /* Multiply_MVVM_Combine_TestTrainingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiply_MVVM_Combine_TestTrainingUITests.swift; sourceTree = "<group>"; };
 		28B5AD112663C5F900627FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		28B5AD1E2663CA2A00627FFD /* CalculateModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateModel.swift; sourceTree = "<group>"; };
-		28B5AD202663CA2A00627FFD /* TimeLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLabelView.swift; sourceTree = "<group>"; };
-		28B5AD212663CA2A00627FFD /* CalculateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateView.swift; sourceTree = "<group>"; };
-		28B5AD222663CA2A00627FFD /* CustomModifire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomModifire.swift; sourceTree = "<group>"; };
-		28B5AD242663CA2A00627FFD /* CalculateViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateViewModel.swift; sourceTree = "<group>"; };
 		28B5AD2C2663CB3000627FFD /* MultiplyTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyTest.swift; sourceTree = "<group>"; };
 		62C57EBEDB2125CAC9F760BB /* Pods_Multiply_MVVM_Combine_TestTrainingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Multiply_MVVM_Combine_TestTrainingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B5F968B28C52B4B00E4D571 /* Pods_Multiply_MVVM_Combine_TestTraining.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Multiply_MVVM_Combine_TestTraining.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +116,31 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		28B406292663D19F008DA965 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				28B406322663D23A008DA965 /* CalculateView.swift */,
+				28B406342663D23A008DA965 /* CustomModifire.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		28B4062A2663D1D5008DA965 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				28B406382663D24F008DA965 /* CalculateViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		28B4062B2663D1E9008DA965 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				28B4063A2663D263008DA965 /* CalculateModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		28B5ACE12663C5F800627FFD = {
 			isa = PBXGroup;
 			children = (
@@ -144,9 +169,9 @@
 				28B5ACED2663C5F800627FFD /* AppDelegate.swift */,
 				28B5ACEF2663C5F800627FFD /* SceneDelegate.swift */,
 				28B5ACF12663C5F800627FFD /* ContentView.swift */,
-				28B5AD1F2663CA2A00627FFD /* View */,
-				28B5AD232663CA2A00627FFD /* ViewModel */,
-				28B5AD1D2663CA2A00627FFD /* Model */,
+				28B4062B2663D1E9008DA965 /* Model */,
+				28B4062A2663D1D5008DA965 /* ViewModel */,
+				28B406292663D19F008DA965 /* View */,
 				28B5ACF32663C5F900627FFD /* Assets.xcassets */,
 				28B5ACF82663C5F900627FFD /* LaunchScreen.storyboard */,
 				28B5ACFB2663C5F900627FFD /* Info.plist */,
@@ -166,6 +191,7 @@
 		28B5AD032663C5F900627FFD /* Multiply_MVVM+Combine+TestTrainingTests */ = {
 			isa = PBXGroup;
 			children = (
+				28B4063C2663D2DE008DA965 /* MultiplyMock.swift */,
 				28B5AD042663C5F900627FFD /* Multiply_MVVM_Combine_TestTrainingTests.swift */,
 				28B5AD2C2663CB3000627FFD /* MultiplyTest.swift */,
 				28B5AD062663C5F900627FFD /* Info.plist */,
@@ -180,35 +206,6 @@
 				28B5AD112663C5F900627FFD /* Info.plist */,
 			);
 			path = "Multiply_MVVM+Combine+TestTrainingUITests";
-			sourceTree = "<group>";
-		};
-		28B5AD1D2663CA2A00627FFD /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				28B5AD1E2663CA2A00627FFD /* CalculateModel.swift */,
-			);
-			name = Model;
-			path = "../../Multiply/Multiply_MVVM+Comcine+TestTraining/Multiply_MVVM+Comcine+TestTraining/Model";
-			sourceTree = "<group>";
-		};
-		28B5AD1F2663CA2A00627FFD /* View */ = {
-			isa = PBXGroup;
-			children = (
-				28B5AD202663CA2A00627FFD /* TimeLabelView.swift */,
-				28B5AD212663CA2A00627FFD /* CalculateView.swift */,
-				28B5AD222663CA2A00627FFD /* CustomModifire.swift */,
-			);
-			name = View;
-			path = "../../Multiply/Multiply_MVVM+Comcine+TestTraining/Multiply_MVVM+Comcine+TestTraining/View";
-			sourceTree = "<group>";
-		};
-		28B5AD232663CA2A00627FFD /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				28B5AD242663CA2A00627FFD /* CalculateViewModel.swift */,
-			);
-			name = ViewModel;
-			path = "../../Multiply/Multiply_MVVM+Comcine+TestTraining/Multiply_MVVM+Comcine+TestTraining/ViewModel";
 			sourceTree = "<group>";
 		};
 		6EB9A7E1D1D5732514AC571B /* Frameworks */ = {
@@ -442,13 +439,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				28B5ACEE2663C5F800627FFD /* AppDelegate.swift in Sources */,
-				28B5AD282663CA2A00627FFD /* CustomModifire.swift in Sources */,
-				28B5AD272663CA2A00627FFD /* CalculateView.swift in Sources */,
-				28B5AD262663CA2A00627FFD /* TimeLabelView.swift in Sources */,
+				28B406392663D24F008DA965 /* CalculateViewModel.swift in Sources */,
 				28B5ACF02663C5F800627FFD /* SceneDelegate.swift in Sources */,
-				28B5AD292663CA2A00627FFD /* CalculateViewModel.swift in Sources */,
-				28B5AD252663CA2A00627FFD /* CalculateModel.swift in Sources */,
 				28B5ACF22663C5F800627FFD /* ContentView.swift in Sources */,
+				28B406352663D23A008DA965 /* CalculateView.swift in Sources */,
+				28B4063B2663D263008DA965 /* CalculateModel.swift in Sources */,
+				28B406372663D23A008DA965 /* CustomModifire.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +453,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28B5AD052663C5F900627FFD /* Multiply_MVVM_Combine_TestTrainingTests.swift in Sources */,
+				28B4063D2663D2DE008DA965 /* MultiplyMock.swift in Sources */,
 				28B5AD2D2663CB3000627FFD /* MultiplyTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

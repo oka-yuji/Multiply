@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = SwiftLint;
+			productName = SwiftLint;
 		};
 /* End PBXAggregateTarget section */
 
@@ -58,7 +59,7 @@
 		09B6A5186D43781E912A88CEA34D3176 /* Pods-Multiply_MVVM+Combine+TestTraining-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Multiply_MVVM+Combine+TestTraining-acknowledgements.markdown"; sourceTree = "<group>"; };
 		105CD7BD110718E1F990F3D29B808861 /* Pods-Multiply_MVVM+Combine+TestTrainingTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Multiply_MVVM+Combine+TestTrainingTests-Info.plist"; sourceTree = "<group>"; };
 		13D01540ADE66C43793FAC2A4ECBC71B /* Pods-Multiply_MVVM+Combine+TestTrainingTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Multiply_MVVM+Combine+TestTrainingTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1B1F500E1599F307829BED49DD269ACB /* Pods_Multiply_MVVM_Combine_TestTrainingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Multiply_MVVM_Combine_TestTrainingTests.framework; path = "Pods-Multiply_MVVM+Combine+TestTrainingTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B1F500E1599F307829BED49DD269ACB /* Pods_Multiply_MVVM_Combine_TestTrainingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Multiply_MVVM_Combine_TestTrainingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AC661003E4ED84D8934A2F6915241BB /* Pods-Multiply_MVVM+Combine+TestTrainingTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Multiply_MVVM+Combine+TestTrainingTests-dummy.m"; sourceTree = "<group>"; };
 		3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
 		40E0AEAB5E0C010E365DE094014544A0 /* Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests-dummy.m"; sourceTree = "<group>"; };
@@ -78,12 +79,12 @@
 		8D8104989D516EB8903D231E3D4169CC /* Pods-Multiply_MVVM+Combine+TestTraining-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Multiply_MVVM+Combine+TestTraining-acknowledgements.plist"; sourceTree = "<group>"; };
 		9558A247444CD891E55FC52B0D67CD10 /* Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9AB6E56797AC070498DBDD89CB2E8968 /* Pods-Multiply_MVVM+Combine+TestTraining.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Multiply_MVVM+Combine+TestTraining.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AA26CF8D88770EC4A0A894E414CCF1D4 /* Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests.modulemap"; sourceTree = "<group>"; };
-		AE78625C3CAA17F72063FC3A072C04EA /* Pods_Multiply_MVVM_Combine_TestTraining.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Multiply_MVVM_Combine_TestTraining.framework; path = "Pods-Multiply_MVVM+Combine+TestTraining.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE78625C3CAA17F72063FC3A072C04EA /* Pods_Multiply_MVVM_Combine_TestTraining.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Multiply_MVVM_Combine_TestTraining.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8A7A7FC39CA504A319A42014CF87837 /* Pods-Multiply_MVVM+Combine+TestTrainingTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Multiply_MVVM+Combine+TestTrainingTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		BA74C610E6BA35BADE23F741D6ACD8F9 /* Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests-Info.plist"; sourceTree = "<group>"; };
-		BCF1DE46B119E3E0B0221976EEB1C990 /* Pods_Multiply_MVVM_Combine_TestTraining_Multiply_MVVM_Combine_TestTrainingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Multiply_MVVM_Combine_TestTraining_Multiply_MVVM_Combine_TestTrainingUITests.framework; path = "Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF1DE46B119E3E0B0221976EEB1C990 /* Pods_Multiply_MVVM_Combine_TestTraining_Multiply_MVVM_Combine_TestTrainingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Multiply_MVVM_Combine_TestTraining_Multiply_MVVM_Combine_TestTrainingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB04CB9B101FB62F5134DF6B6BD17080 /* Pods-Multiply_MVVM+Combine+TestTrainingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Multiply_MVVM+Combine+TestTrainingTests.release.xcconfig"; sourceTree = "<group>"; };
 		E23A6008BD99825EBDFDC95F689ECE34 /* Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -202,7 +203,6 @@
 			children = (
 				7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */,
 			);
-			name = SwiftLint;
 			path = SwiftLint;
 			sourceTree = "<group>";
 		};
@@ -332,7 +332,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1250;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 9.3";
@@ -584,7 +584,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -804,7 +804,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

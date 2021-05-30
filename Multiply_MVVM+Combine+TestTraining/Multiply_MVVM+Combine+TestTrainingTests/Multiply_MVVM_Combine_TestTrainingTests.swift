@@ -6,10 +6,16 @@
 //
 
 import XCTest
-@testable import Pods_Multiply_MVVM_Combine_TestTraining
+@testable import Multiply_MVVM_Combine_TestTraining
 
-class Multiply_MVVM_Combine_TestTrainingTests: XCTestCase {
-
+class MultiplyMVVMCombineTestTrainingTests: XCTestCase {
+    var viewModel = CalculateViewModel(calculateModel: CalculateModel())
+    func testMultiply() {
+        viewModel.fetchValue1 = "10"
+        viewModel.fetchValue2 = "3"
+        viewModel.multiply()
+        XCTAssertEqual(viewModel.multiplyValue, "30")
+    }
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
