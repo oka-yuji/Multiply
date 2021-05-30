@@ -1,0 +1,6 @@
+framework module Pods_Multiply_MVVM_Comcine_TestTraining {
+  umbrella header "Pods-Multiply_MVVM+Comcine+TestTraining-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -14,13 +14,6 @@ class MultiplyTest: XCTestCase {
         calculateViewModel.fetchValue1 = "10"
         calculateViewModel.fetchValue2 = "5"
         calculateViewModel.multiply()
-        XCTAssertTrue(calculateViewModel.multiplyValue == "50")
-    }
-    
-    func testCalTest() {
-        calculateViewModel.fetchValue1 = "10"
-        calculateViewModel.fetchValue2 = "5"
-        calculateViewModel.multiply()
-        XCTAssertTrue(calculateViewModel.multiplyValue == "50")
+        XCTAssertEqual(calculateViewModel.multiplyValue, "50")
     }
 }

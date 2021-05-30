@@ -13,13 +13,17 @@
 		287D08EF26638D12003269C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 287D08EE26638D12003269C0 /* Assets.xcassets */; };
 		287D08F226638D12003269C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 287D08F126638D12003269C0 /* Preview Assets.xcassets */; };
 		287D08F526638D12003269C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287D08F326638D12003269C0 /* LaunchScreen.storyboard */; };
-		287D090026638D12003269C0 /* Multiply_MVVM_Comcine_TestTrainingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D08FF26638D12003269C0 /* Multiply_MVVM_Comcine_TestTrainingTests.swift */; };
+		287D090026638D12003269C0 /* Multiply_MVVM_Combine_TestTrainingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D08FF26638D12003269C0 /* Multiply_MVVM_Combine_TestTrainingTests.swift */; };
 		287D090B26638D12003269C0 /* Multiply_MVVM_Comcine_TestTrainingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D090A26638D12003269C0 /* Multiply_MVVM_Comcine_TestTrainingUITests.swift */; };
 		287D091C26638D81003269C0 /* CalculateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D091B26638D81003269C0 /* CalculateView.swift */; };
 		287D091E26638D98003269C0 /* CalculateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D091D26638D98003269C0 /* CalculateViewModel.swift */; };
 		287D092026638DA9003269C0 /* CalculateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D091F26638DA9003269C0 /* CalculateModel.swift */; };
 		287D092226638EBD003269C0 /* MultiplyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D092126638EBD003269C0 /* MultiplyTest.swift */; };
 		287D092426638F39003269C0 /* CustomModifire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D092326638F39003269C0 /* CustomModifire.swift */; };
+		287D09282663AF80003269C0 /* TimeLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D09272663AF80003269C0 /* TimeLabelView.swift */; };
+		2E26670BFCF0DB0A045FB393 /* Pods_Multiply_MVVM_Comcine_TestTrainingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C3DEF175C3C1FB8C36A7A8B /* Pods_Multiply_MVVM_Comcine_TestTrainingTests.framework */; };
+		C52FF8769333E96A208E28FE /* Pods_Multiply_MVVM_Comcine_TestTraining.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E890D4DF56F8958170E4F7D8 /* Pods_Multiply_MVVM_Comcine_TestTraining.framework */; };
+		DF51FE8991BB3EF762CC39AD /* Pods_Multiply_MVVM_Comcine_TestTraining_Multiply_MVVM_Comcine_TestTrainingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9DB3297ED11DB733069CD58 /* Pods_Multiply_MVVM_Comcine_TestTraining_Multiply_MVVM_Comcine_TestTrainingUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02F4BEF1677F9687641BBDF6 /* Pods-Multiply_MVVM+Comcine+TestTraining-Multiply_MVVM+Comcine+TestTrainingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multiply_MVVM+Comcine+TestTraining-Multiply_MVVM+Comcine+TestTrainingUITests.release.xcconfig"; path = "Target Support Files/Pods-Multiply_MVVM+Comcine+TestTraining-Multiply_MVVM+Comcine+TestTrainingUITests/Pods-Multiply_MVVM+Comcine+TestTraining-Multiply_MVVM+Comcine+TestTrainingUITests.release.xcconfig"; sourceTree = "<group>"; };
 		287D08E526638D11003269C0 /* Multiply_MVVM+Comcine+TestTraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multiply_MVVM+Comcine+TestTraining.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		287D08E826638D11003269C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		287D08EA26638D11003269C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,7 +54,7 @@
 		287D08F426638D12003269C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		287D08F626638D12003269C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		287D08FB26638D12003269C0 /* Multiply_MVVM+Comcine+TestTrainingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multiply_MVVM+Comcine+TestTrainingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		287D08FF26638D12003269C0 /* Multiply_MVVM_Comcine_TestTrainingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiply_MVVM_Comcine_TestTrainingTests.swift; sourceTree = "<group>"; };
+		287D08FF26638D12003269C0 /* Multiply_MVVM_Combine_TestTrainingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiply_MVVM_Combine_TestTrainingTests.swift; sourceTree = "<group>"; };
 		287D090126638D12003269C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		287D090626638D12003269C0 /* Multiply_MVVM+Comcine+TestTrainingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multiply_MVVM+Comcine+TestTrainingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		287D090A26638D12003269C0 /* Multiply_MVVM_Comcine_TestTrainingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiply_MVVM_Comcine_TestTrainingUITests.swift; sourceTree = "<group>"; };
@@ -59,6 +64,15 @@
 		287D091F26638DA9003269C0 /* CalculateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateModel.swift; sourceTree = "<group>"; };
 		287D092126638EBD003269C0 /* MultiplyTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyTest.swift; sourceTree = "<group>"; };
 		287D092326638F39003269C0 /* CustomModifire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifire.swift; sourceTree = "<group>"; };
+		287D09272663AF80003269C0 /* TimeLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLabelView.swift; sourceTree = "<group>"; };
+		3B853DCF96DC312BEFF20E52 /* Pods-Multiply_MVVM+Comcine+TestTrainingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multiply_MVVM+Comcine+TestTrainingTests.debug.xcconfig"; path = "Target Support Files/Pods-Multiply_MVVM+Comcine+TestTrainingTests/Pods-Multiply_MVVM+Comcine+TestTrainingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C3DEF175C3C1FB8C36A7A8B /* Pods_Multiply_MVVM_Comcine_TestTrainingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Multiply_MVVM_Comcine_TestTrainingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A42070BB784F7F0C4A9FF64 /* Pods-Multiply_MVVM+Comcine+TestTraining-Multiply_MVVM+Comcine+TestTrainingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multiply_MVVM+Comcine+TestTraining-Multiply_MVVM+Comcine+TestTrainingUITests.debug.xcconfig"; path = "Target Support Files/Pods-Multiply_MVVM+Comcine+TestTraining-Multiply_MVVM+Comcine+TestTrainingUITests/Pods-Multiply_MVVM+Comcine+TestTraining-Multiply_MVVM+Comcine+TestTrainingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A267EF8D46F4180CB25D2280 /* Pods-Multiply_MVVM+Comcine+TestTrainingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multiply_MVVM+Comcine+TestTrainingTests.release.xcconfig"; path = "Target Support Files/Pods-Multiply_MVVM+Comcine+TestTrainingTests/Pods-Multiply_MVVM+Comcine+TestTrainingTests.release.xcconfig"; sourceTree = "<group>"; };
+		A9DB3297ED11DB733069CD58 /* Pods_Multiply_MVVM_Comcine_TestTraining_Multiply_MVVM_Comcine_TestTrainingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Multiply_MVVM_Comcine_TestTraining_Multiply_MVVM_Comcine_TestTrainingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4F6C8B5B63E891C12A0D41 /* Pods-Multiply_MVVM+Comcine+TestTraining.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multiply_MVVM+Comcine+TestTraining.release.xcconfig"; path = "Target Support Files/Pods-Multiply_MVVM+Comcine+TestTraining/Pods-Multiply_MVVM+Comcine+TestTraining.release.xcconfig"; sourceTree = "<group>"; };
+		D3B8B16D1B993C52B9BEAF99 /* Pods-Multiply_MVVM+Comcine+TestTraining.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multiply_MVVM+Comcine+TestTraining.debug.xcconfig"; path = "Target Support Files/Pods-Multiply_MVVM+Comcine+TestTraining/Pods-Multiply_MVVM+Comcine+TestTraining.debug.xcconfig"; sourceTree = "<group>"; };
+		E890D4DF56F8958170E4F7D8 /* Pods_Multiply_MVVM_Comcine_TestTraining.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Multiply_MVVM_Comcine_TestTraining.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C52FF8769333E96A208E28FE /* Pods_Multiply_MVVM_Comcine_TestTraining.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E26670BFCF0DB0A045FB393 /* Pods_Multiply_MVVM_Comcine_TestTrainingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF51FE8991BB3EF762CC39AD /* Pods_Multiply_MVVM_Comcine_TestTraining_Multiply_MVVM_Comcine_TestTrainingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +110,8 @@
 				287D08FE26638D12003269C0 /* Multiply_MVVM+Comcine+TestTrainingTests */,
 				287D090926638D12003269C0 /* Multiply_MVVM+Comcine+TestTrainingUITests */,
 				287D08E626638D11003269C0 /* Products */,
+				BC8FDED085CFE0DAF6B6CB7F /* Pods */,
+				906A25A7FA91ABBE6922154B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,7 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				287D092126638EBD003269C0 /* MultiplyTest.swift */,
-				287D08FF26638D12003269C0 /* Multiply_MVVM_Comcine_TestTrainingTests.swift */,
+				287D08FF26638D12003269C0 /* Multiply_MVVM_Combine_TestTrainingTests.swift */,
 				287D090126638D12003269C0 /* Info.plist */,
 			);
 			path = "Multiply_MVVM+Comcine+TestTrainingTests";
@@ -171,8 +190,32 @@
 			children = (
 				287D091B26638D81003269C0 /* CalculateView.swift */,
 				287D092326638F39003269C0 /* CustomModifire.swift */,
+				287D09272663AF80003269C0 /* TimeLabelView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		906A25A7FA91ABBE6922154B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E890D4DF56F8958170E4F7D8 /* Pods_Multiply_MVVM_Comcine_TestTraining.framework */,
+				A9DB3297ED11DB733069CD58 /* Pods_Multiply_MVVM_Comcine_TestTraining_Multiply_MVVM_Comcine_TestTrainingUITests.framework */,
+				3C3DEF175C3C1FB8C36A7A8B /* Pods_Multiply_MVVM_Comcine_TestTrainingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC8FDED085CFE0DAF6B6CB7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3B8B16D1B993C52B9BEAF99 /* Pods-Multiply_MVVM+Comcine+TestTraining.debug.xcconfig */,
+				CB4F6C8B5B63E891C12A0D41 /* Pods-Multiply_MVVM+Comcine+TestTraining.release.xcconfig */,
+				7A42070BB784F7F0C4A9FF64 /* Pods-Multiply_MVVM+Comcine+TestTraining-Multiply_MVVM+Comcine+TestTrainingUITests.debug.xcconfig */,
+				02F4BEF1677F9687641BBDF6 /* Pods-Multiply_MVVM+Comcine+TestTraining-Multiply_MVVM+Comcine+TestTrainingUITests.release.xcconfig */,
+				3B853DCF96DC312BEFF20E52 /* Pods-Multiply_MVVM+Comcine+TestTrainingTests.debug.xcconfig */,
+				A267EF8D46F4180CB25D2280 /* Pods-Multiply_MVVM+Comcine+TestTrainingTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +225,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 287D090F26638D12003269C0 /* Build configuration list for PBXNativeTarget "Multiply_MVVM+Comcine+TestTraining" */;
 			buildPhases = (
+				28C197A02663B925000A0C94 /* ShellScript */,
+				0F02C2445DC221303954052D /* [CP] Check Pods Manifest.lock */,
 				287D08E126638D11003269C0 /* Sources */,
 				287D08E226638D11003269C0 /* Frameworks */,
 				287D08E326638D11003269C0 /* Resources */,
@@ -199,6 +244,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 287D091226638D12003269C0 /* Build configuration list for PBXNativeTarget "Multiply_MVVM+Comcine+TestTrainingTests" */;
 			buildPhases = (
+				1566AEABCA04B36EC8362290 /* [CP] Check Pods Manifest.lock */,
 				287D08F726638D12003269C0 /* Sources */,
 				287D08F826638D12003269C0 /* Frameworks */,
 				287D08F926638D12003269C0 /* Resources */,
@@ -217,6 +263,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 287D091526638D12003269C0 /* Build configuration list for PBXNativeTarget "Multiply_MVVM+Comcine+TestTrainingUITests" */;
 			buildPhases = (
+				B68B5A1610DBC8CE2DBED283 /* [CP] Check Pods Manifest.lock */,
 				287D090226638D12003269C0 /* Sources */,
 				287D090326638D12003269C0 /* Frameworks */,
 				287D090426638D12003269C0 /* Resources */,
@@ -300,11 +347,98 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F02C2445DC221303954052D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Multiply_MVVM+Comcine+TestTraining-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1566AEABCA04B36EC8362290 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Multiply_MVVM+Comcine+TestTrainingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28C197A02663B925000A0C94 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		B68B5A1610DBC8CE2DBED283 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Multiply_MVVM+Comcine+TestTraining-Multiply_MVVM+Comcine+TestTrainingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		287D08E126638D11003269C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				287D09282663AF80003269C0 /* TimeLabelView.swift in Sources */,
 				287D08E926638D11003269C0 /* AppDelegate.swift in Sources */,
 				287D092426638F39003269C0 /* CustomModifire.swift in Sources */,
 				287D08EB26638D11003269C0 /* SceneDelegate.swift in Sources */,
@@ -319,7 +453,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				287D090026638D12003269C0 /* Multiply_MVVM_Comcine_TestTrainingTests.swift in Sources */,
+				287D090026638D12003269C0 /* Multiply_MVVM_Combine_TestTrainingTests.swift in Sources */,
 				287D092226638EBD003269C0 /* MultiplyTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -477,6 +611,7 @@
 		};
 		287D091026638D12003269C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3B8B16D1B993C52B9BEAF99 /* Pods-Multiply_MVVM+Comcine+TestTraining.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -498,6 +633,7 @@
 		};
 		287D091126638D12003269C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB4F6C8B5B63E891C12A0D41 /* Pods-Multiply_MVVM+Comcine+TestTraining.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -519,6 +655,7 @@
 		};
 		287D091326638D12003269C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B853DCF96DC312BEFF20E52 /* Pods-Multiply_MVVM+Comcine+TestTrainingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -541,6 +678,7 @@
 		};
 		287D091426638D12003269C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A267EF8D46F4180CB25D2280 /* Pods-Multiply_MVVM+Comcine+TestTrainingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -563,6 +701,7 @@
 		};
 		287D091626638D12003269C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A42070BB784F7F0C4A9FF64 /* Pods-Multiply_MVVM+Comcine+TestTraining-Multiply_MVVM+Comcine+TestTrainingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -583,6 +722,7 @@
 		};
 		287D091726638D12003269C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02F4BEF1677F9687641BBDF6 /* Pods-Multiply_MVVM+Comcine+TestTraining-Multiply_MVVM+Comcine+TestTrainingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
