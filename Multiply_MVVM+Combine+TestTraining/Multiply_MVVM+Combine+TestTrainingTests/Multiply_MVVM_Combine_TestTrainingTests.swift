@@ -9,7 +9,7 @@ import XCTest
 @testable import Multiply_MVVM_Combine_TestTraining
 
 class MultiplyMVVMCombineTestTrainingTests: XCTestCase {
-    var viewModel = CalculateViewModel(calculateModel: CalculateModel())
+    var viewModel = CalculateViewModel(calculate: CalculateModel())
     func testMultiply() {
         viewModel.fetchValue1 = "10"
         viewModel.fetchValue2 = "3"
