@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28A13162266BA2D40056E848 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A13161266BA2D40056E848 /* Test.swift */; };
+		28A13164266BA89A0056E848 /* Test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A13163266BA89A0056E848 /* Test2.swift */; };
 		28B406352663D23A008DA965 /* CalculateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B406322663D23A008DA965 /* CalculateView.swift */; };
 		28B406372663D23A008DA965 /* CustomModifire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B406342663D23A008DA965 /* CustomModifire.swift */; };
 		28B406392663D24F008DA965 /* CalculateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B406382663D24F008DA965 /* CalculateViewModel.swift */; };
@@ -47,6 +49,8 @@
 		004871FDCD35AC6AC9E94232 /* Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests.release.xcconfig"; path = "Target Support Files/Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests/Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests.release.xcconfig"; sourceTree = "<group>"; };
 		04CD6D7017F188E68DD9DEBD /* Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests.debug.xcconfig"; path = "Target Support Files/Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests/Pods-Multiply_MVVM+Combine+TestTraining-Multiply_MVVM+Combine+TestTrainingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		0BAB456F5C16C7DC99E184FF /* Pods-Multiply_MVVM+Combine+TestTraining.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multiply_MVVM+Combine+TestTraining.debug.xcconfig"; path = "Target Support Files/Pods-Multiply_MVVM+Combine+TestTraining/Pods-Multiply_MVVM+Combine+TestTraining.debug.xcconfig"; sourceTree = "<group>"; };
+		28A13161266BA2D40056E848 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		28A13163266BA89A0056E848 /* Test2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test2.swift; sourceTree = "<group>"; };
 		28B406322663D23A008DA965 /* CalculateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateView.swift; sourceTree = "<group>"; };
 		28B406342663D23A008DA965 /* CustomModifire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomModifire.swift; sourceTree = "<group>"; };
 		28B406382663D24F008DA965 /* CalculateViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateViewModel.swift; sourceTree = "<group>"; };
@@ -137,6 +141,8 @@
 			isa = PBXGroup;
 			children = (
 				28B4063A2663D263008DA965 /* CalculateModel.swift */,
+				28A13161266BA2D40056E848 /* Test.swift */,
+				28A13163266BA89A0056E848 /* Test2.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -441,8 +447,10 @@
 				28B5ACEE2663C5F800627FFD /* AppDelegate.swift in Sources */,
 				28B406392663D24F008DA965 /* CalculateViewModel.swift in Sources */,
 				28B5ACF02663C5F800627FFD /* SceneDelegate.swift in Sources */,
+				28A13164266BA89A0056E848 /* Test2.swift in Sources */,
 				28B5ACF22663C5F800627FFD /* ContentView.swift in Sources */,
 				28B406352663D23A008DA965 /* CalculateView.swift in Sources */,
+				28A13162266BA2D40056E848 /* Test.swift in Sources */,
 				28B4063B2663D263008DA965 /* CalculateModel.swift in Sources */,
 				28B406372663D23A008DA965 /* CustomModifire.swift in Sources */,
 			);

@@ -12,7 +12,7 @@ class CalculateViewModel: ObservableObject {
     init(calculate: ActionMultiply) {
         self.calculate = calculate
     }
-    //Viewとバインディング変数
+    // Viewとバインディング変数
     @Published var fetchValue1 = ""
     @Published var fetchValue2 = ""
     @Published var multiplyValue = ""
